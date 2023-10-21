@@ -1,20 +1,76 @@
-# data-pulse
+# Data Pulse
 
-Automated Data Analysis Tool: Data Pulse
+Data Pulse is a project designed for efficient data analysis and visualization. It combines a powerful backend with a user-friendly frontend to provide seamless data processing.
 
-Data Sources: various data sources such as CSV files, Excel spreadsheets, databases (MySQL, PostgreSQL, MongoDB), and public APIs.
+## Prerequisites
+- Python 3.6+
+- Node.js
+- npm
 
-Visualization: data visualization using libraries like Matplotlib, Seaborn, or Plotly
+## Setup Instructions
 
-Automation: users can schedule analyses at specific intervals or in response to certain events with automated report generation and delivery via email or messaging platforms.
+### Backend
+1. Create Virtual Environment
+```bash
+make init-backend
+```
+2. Install Backend Dependencies
+```bash
+make install-backend
+```
+### Frontend
+1. Install Frontend Dependencies
+```bash
+make install-frontend
+```
+2. Build Frontend
+```bash
+make build-frontend
+```
 
-Automated Data Analysis Tool (Python):
-Data Sources: Integrate your tool with various data sources such as CSV files, Excel spreadsheets, databases (MySQL, PostgreSQL, MongoDB), and public APIs. This will demonstrate your ability to work with diverse data formats and sources.
+## Running the Application
+1. Start Backend Server
+```bash
+make start-backend
+```
+2. Start Frontend Server
+```bash
+make start-frontend
+```
 
-Visualization: Implement data visualization using libraries like Matplotlib, Seaborn, or Plotly. Visual representations of data often make analysis results more understandable and impactful.
+## Testing
+1. Run Backend Tests
+```bash
+make test-backend
+```
+2. Generate Backend Coverage Report
+```bash
+make coverage-backend
+```
+3. Run Frontend Tests
+```bash
+make test-frontend
+```
 
-Automation: Design your tool to be fully automated. Users should be able to schedule analyses at specific intervals or in response to certain events. Automate report generation and delivery via email or messaging platforms.
+## Additional Commands
+Freeze Backend Dependencies
+```bash
+make freeze
+```
+Clean Backend
+```bash
+make clean-backend
+```
 
-Error Handling: Implement robust error handling mechanisms. If the tool encounters invalid data or errors during analysis, it should gracefully handle them and provide meaningful error messages to users.
+Clean Frontend
+```bash
+make clean-frontend
+```
 
-User Interface (Optional): Consider creating a simple web-based or desktop GUI for your tool using frameworks like Flask (for web) or Tkinter (for desktop). This can enhance the user experience and demonstrate your ability to develop user-friendly interfaces.
+Clean Project
+```bash
+make clean
+```
+
+## License
+This project is licensed under the ISC License - see the LICENSE.md file for details.

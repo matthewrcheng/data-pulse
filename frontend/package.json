@@ -1,0 +1,41 @@
+{
+    "name": "data-pulse",
+    "version": "1.0.0",
+    "description": "Data Pulse is a tool to help data scientists clean and visualize their data.",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "clean": "rm -rf build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/matthewrcheng/data-pulse.git"
+    },
+    "keywords": [
+        "react",
+        "javascript",
+        "data",
+        "visualization",
+        "interactive",
+        "charts",
+        "data",
+        "cleaning"
+    ],
+    "author": "Matthew Cheng",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/matthewrcheng/data-pulse/issues"
+    },
+    "homepage": "https://github.com/matthewrcheng/data-pulse#readme",
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "^5.0.1"
+    }
+}
